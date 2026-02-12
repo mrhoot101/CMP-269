@@ -1,9 +1,10 @@
 package Exercise_3;
 
-public class LowGradeException extends Exception{
+class LowGradeException extends Exception{
 
-	public LowGradeException() {
+	protected LowGradeException() {
 		super();
 	}
 	
 }
+
