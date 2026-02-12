@@ -1,0 +1,6 @@
+Alice_Smith 85 90 78
+Moises_Rojas 95 91 97
+Juan_Hernandez 59 50 60
+Junior 80 Error 85
+Lucas_Isaac 100 100 100
+Bob_Jones 70 86 90
