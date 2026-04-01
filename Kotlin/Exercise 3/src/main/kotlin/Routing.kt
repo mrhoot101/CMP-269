@@ -22,9 +22,6 @@ fun Application.configureRouting() {
         get("/grade/{studentId?}") {
             val grade = mapOf("123" to 95, "456" to 82)
 
-//            if (call.parameters["studentId"].isNullOrBlank()){
-//                call.respond(HttpStatusCode.NotFound, "Student not found")
-//            }
             if (call.parameters["studentId"].equals("123") || call.parameters["studentId"].equals("456")) {
                 call.respondText(grade.get(call.parameters["studentID"]).toString())
             }
