@@ -18,13 +18,13 @@ def exercise_2_collections():
 # Exercise 3: Logic
 def exercise_3_logic():
     numbers = [1,2,3,4,5,6,7,8,9,10]
-    events = []
+    evens = []
 
     for num in numbers:
         if num % 2 == 0:
-            events.append(num)
+            evens.append(num)
     
-    print(events)
+    print(evens)
 
 name = "  main  "
 if name == "  main  ":
