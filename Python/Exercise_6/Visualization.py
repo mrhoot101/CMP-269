@@ -25,6 +25,7 @@ def task_1_trend_line():
     plt.xlabel('Day')
     plt.ylabel('Bitcoin Price')
     plt.show()
+    print("Line Chart Finished")
 
 
 def task_2_seaborn_comparison():
@@ -46,6 +47,7 @@ def task_2_seaborn_comparison():
     sns.barplot(df, x='Portfolios', y='Total Value', hue='Total Value', legend=False)
     plt.title('Portfolio Comparison')
     plt.show()
+    print("Bar Chart Finished")
 
 
 if __name__ == "__main__":
